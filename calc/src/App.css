@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+.calculator{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 40vh;
+  height: 120px;
+  width: 120px;
+}
+
+.calculator > * {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  padding: 10px 
+}
+
+.row{
+  grid-column: 1/-1;
+}
+
+#display{
+  text-align: right;
+}
+#clear{
+  text-align: center;
+}
