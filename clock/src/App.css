@@ -1,0 +1,39 @@
+.App {
+  display: flexbox;
+  flex-wrap: inherit;
+  background-color: rgb(32, 111, 111);
+}
+
+.Heading{
+  align-items: center;
+  color: grey;
+  justify-content: center;
+  text-align: center;
+  display: block;
+}
+
+.clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.break{
+  display: block;
+  text-align: center;
+  width: 500px;
+  
+}
+
+.session{
+display: block;
+text-align: center;
+width: 500px;
+}
+
+.timer{
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}

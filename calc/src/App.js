@@ -27,13 +27,11 @@ function App() {
       return;
     }
 
-    // Handle negative sign as a unary operator
     if (operator === "-" && (display === "0" || /[\+\-\*\/]$/.test(display))) {
       setDisplay(display + operator);
       return;
     }
 
-    // Handle consecutive operators, prioritizing the last one
     const lastChar = display[display.length - 1];
     if (/[\+\-\*\/]$/.test(lastChar)) {
       setDisplay(display.slice(0, -1) + operator);
